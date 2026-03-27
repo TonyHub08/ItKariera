@@ -21,6 +21,16 @@ namespace ItKariera.Controllers
             return View("Profile");
         }
 
+        public IActionResult SignIn()
+        {
+            return View("SignIn");
+        }
+
+        public IActionResult SignUp()
+        {
+            return View("SignUp");
+        }
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
