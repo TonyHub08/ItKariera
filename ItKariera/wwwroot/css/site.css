@@ -69,6 +69,10 @@ form {
     border-radius: 20px;
 }
 
+form * {
+    color: #ffd57e;
+}
+
 #links-container {
     margin: auto;
     width: fit-content;
@@ -132,7 +136,7 @@ form {
 
 .input-group input:focus {
     outline: none;
-    border: 2px solid var(--text-color);
+    border: 2px solid #ffd57e;
 }
 
 .input-group input:not(:placeholder-shown) + label {
